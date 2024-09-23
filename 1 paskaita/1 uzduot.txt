@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Mano pirpmasis HTML puslapis</title>
+   <style>
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+   </style>
+
+  </head>
+  <body>
+    <h1> žyme, pvz., "Sveiki atvykę į mano svetainę!".</h1>
+    <p>Pirma pastraipa pagal antrąja užduotį</p>
+    <h2>Antraštė</h2>
+    <p>Antra pastraipa </p>
+    <h3>Antraštė </h3>
+    <p>Dar viena pastraipa </p>
+    <a href="https://www.example.com">Aplankykite mūsų svetainę</a>
+    <a href="#home">Grįžti į pradžią</a>
+
+
+    <h2>Nesurikiuotas sąrašas</h2>
+    <ul>
+      <li>Punktas 1</li>
+      <li>Punktas 2</li>
+      <li>Punktas 3</li>
+    </ul>
+    <h2>Surikiuotas sąrašas</h2>
+    <ol>
+      <li>Punktas 1</li>
+      <li>Punktas 2</li>
+      <li>Punktas 3</li>
+    </ol>
+
+    <div>
+      <h1>Sveiki programuotojai!</h1>
+      <p>Čia yra pastraipa apie programuotojų gyvenimą.</p>
+    </div>
+    <div>
+      <h2>Top 3 naudų sąrašas</h2>
+      <ul>
+        <li>Laisvė</li>
+        <li>Saviraiška</li>
+        <li>Finansai</li>
+
+
+<h1> Papildoma užduotis</h1>  
+</div><table style="width:29%" >
+
+  <tr>
+    <th>No.</th>
+    <th>Full name</th>
+    <th>Position</th>
+    <th>Salary</th>
+  </tr>
+  <tr>
+  	<td>1</td>
+    <td>Bill Gates</td>
+    <td>Founder Microsoft</td>
+    <td>$1000</td>
+  </tr>
+   <tr>
+   	<td>2</td>
+    <td>Steve Jobs</td>
+    <td>Founder Apple</td>
+    <td>$1200</td>
+  </tr>
+   <tr>
+    <td>3</td>
+    <td>Larry Page</td>
+    <td>Founder Google</td>
+    <td>$1100</td>
+  </tr>
+   <tr>
+   	<td>4</td>
+    <td>Mark Zuckerberg</td>
+    <td>Founder Facebook</td>
+    <td>$1300</td>
+  </tr>
+
+</table>
+  </body>
+</html>

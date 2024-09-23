@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>įrašas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="post">
+        <h1 class="post-title">Mano pirmasis tinklaraščio įrašas</h1>
+        <div class="post-meta">
+          <span class="author">Autorius: Lukas</span> |
+          <span class="date"><span id="datetime"></span></span>
+        </div>
+        <img
+          src="https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/11/how-to-write-a-blog-post.jpeg"
+          alt="Blog"
+          class="post-image"
+        />
+        <p class="post-content">
+          Sveiki atvykę į mano pirmąjį tinklaraščio įrašą! Šiame įraše aptarsiu
+          savo patirtį pradedant kurti tinklaraščius. Tinklaraščiai yra puikus
+          būdas dalintis savo mintimis ir patirtimi su pasauliu. Tikiuosi, kad
+          jums patiks skaityti mano įrašus!
+        </p>
+        <p class="post-content">
+          Jei norite sužinoti daugiau apie tinklaraščių kūrimą, apsilankykite
+          <a href="https://www.example.com" target="_blank">šioje svetainėje</a>.
+        </p>
+      </div>
+      
+
+<script>
+  
+  var now = new Date();
+  var datetime = now.toLocaleString();
+
+  document.getElementById("datetime").innerHTML = datetime;
+</script>
+</body>
+</html>

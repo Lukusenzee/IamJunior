@@ -1,0 +1,12 @@
+p {
+    color:rgb(128, 0, 111);
+}
+.rating{
+    color: green;
+    font-style: italic;
+    
+}
+select{
+    color: indianred;
+    font-style:oblique;
+}

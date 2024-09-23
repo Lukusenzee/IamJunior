@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-menu {
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+  }
+  .menu {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .header-links{
+    color: white;
+    margin: 16px;
+    text-decoration: none;
+  }
+  
+  
+  .menu-links{
+    color: black;
+    margin: 16px;
+    text-decoration: none;
+  }
+  
+  .header-links:hover {
+    color: grey;
+  }
+  .menu-links:hover {
+    color: grey;
+  }
+  
+  .hero {
+    background-image: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/262520/262520_00_2x.jpg?20220907171556");
+    height: 200px;
+    padding: 32px;
+  }
+  
+  .discount-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    padding: 16px;
+    height: 50%;
+    border-radius: 5px;
+    float: right;
+  }
+  
+  .discount-item {
+    margin-bottom: 16px;
+  }
+
+  .menu-span-a{
+    text-align: left;
+  }
+  .menu-span-b{
+    text-align: right;
+  }
+  .button-more{
+    background-color: green;
+    
+  }
