@@ -10,8 +10,10 @@
   }
   .menu {
     background-color: whitesmoke;
-    text-align: center;
+    
     padding: 8px;
+    
+    
   }
   
   .header-links{
@@ -54,12 +56,14 @@
   }
 
   .menu-span-a{
-    text-align: left;
+    margin-left: auto;
   }
   .menu-span-b{
-    text-align: right;
+    margin-right: auto;
+
   }
   .button-more{
     background-color: green;
     
   }
+ 
