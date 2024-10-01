@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: coral;
+  }
+  
+  .flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .flex-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: rgb(235, 80, 255);
+  }
+  
+  .flex-item2 {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
