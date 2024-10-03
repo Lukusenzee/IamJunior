@@ -1,0 +1,5 @@
+1. Lengviau atnaujinti, kodą - pritaikyti pakeitimus. 
+2. Supaprastinamas (ir sutrumpinamas kodas). Kodo struktūros išskaidymas, išskirstymas į atskirus failus, funkcijų(mixin) naudojimas  ir t.t
+3. Savybių(properties ) naudojimas leidžia atskirai kodo/svetainės struktūrai pritaikyti norimą įpatybę.
+Papildomi resursai:
+https://www.ibm.com/think/insights/software-as-a-service-advantages

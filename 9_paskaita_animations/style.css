@@ -1,0 +1,77 @@
+
+
+.button-hovering {
+    padding: 10px 20px;
+    background-color: #ff6a3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+  }
+
+  .button-hovering:hover{
+    background-color: white;
+  }
+
+  @keyframes backgrounds {
+    0% {
+      background-color: #8a381f;
+    }
+    50% {
+      background-color: #d49d3e;
+    }
+    100% {
+      background-color: #367fc7;
+    }
+  }
+
+  .animate {
+    width: 100%;
+    height: 500px;
+    background-color: #ff6a3e;
+    animation: backgrounds 4s infinite alternate;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: #ff6a3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.button:active {
+    transform: scale(0.95);
+} 
+
+
+.animate-this{
+    
+    animation: bounce 4s infinite alternate;
+    animation-timing-function: linear;
+    
+   
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto;
+    margin-right: auto; 
+  
+  }
+  
+  @keyframes bounce {
+    from {
+      background-color: #ff7a59;
+      width: 300px;
+      top: 10px;
+    }
+    to {
+      background-color: #33475b;
+      width: 50px;
+      top: 100px;
+    }
+  }
