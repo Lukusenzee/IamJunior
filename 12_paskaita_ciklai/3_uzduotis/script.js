@@ -19,5 +19,9 @@ for (let i = 0; i < people.length; i++) {
 people.map(item=>{
     item.validResidence==true?canVote.push(item):cantVote.push(item);
 })
-console.log(canVote1);
-console.log(cantVote1);
+for(let i=0; i<cantVote1.length; i++){
+    console.log(cantVote[i].name);
+}
+for(let i=0; i<canVote1.length; i++){
+    console.log(canVote[i].name);
+}
