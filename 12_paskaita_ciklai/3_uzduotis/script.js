@@ -12,16 +12,18 @@ const canVote1 = [];
 const cantVote1 = [];
 
 for (let i = 0; i < people.length; i++) {
-    (people[i].validResidence=true)?canVote1.push(i):cantVote1.push(i);
+    (people[i].validResidence=true && people[i].age>=18)?canVote1.push(i):cantVote1.push(i);
     
     
 }
 people.map(item=>{
-    item.validResidence==true?canVote.push(item):cantVote.push(item);
+    (item.validResidence==true&& item.age>=18)?canVote.push(item):cantVote.push(item);
 })
+console.log("Cant vote");
 for(let i=0; i<cantVote1.length; i++){
     console.log(cantVote[i].name);
 }
+console.log("Can vote")
 for(let i=0; i<canVote1.length; i++){
     console.log(canVote[i].name);
 }
