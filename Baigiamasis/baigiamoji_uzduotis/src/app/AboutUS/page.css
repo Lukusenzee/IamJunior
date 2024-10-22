@@ -1,24 +1,50 @@
-.about-container{
+.about-container {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 0 10px; /* Add some padding for mobile */
 }
-p{
+
+p {
     padding: 20px;
 }
 
-.in-progress-section{
+
+
+.completed-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
+    width: 100%; 
+    overflow-x: auto; 
 }
-.completed-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.completed-section {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 600px) {
+    p {
+        padding: 10px; 
+    }
+
+   
+    .completed-section {
+        margin-bottom: 160px;
+       
+        padding: 0 10px; 
+    }
+
+    h1, h2 {
+        font-size: 1.5em; 
+    }
+
+    ul {
+        padding-left: 20px; 
+    }
 }

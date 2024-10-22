@@ -9,6 +9,7 @@ export default function About() {
      <section className="purpose-section">
       <p>This site is mainly for learning and display purposes.</p>
     </section>
+    
     <section className="completed-section">
       <h2>Completed</h2>
       <ul>
@@ -19,21 +20,8 @@ export default function About() {
        </ul>
     </section>
    
-    <section className="in-progress-section">
-      <h2>Currently in progress</h2>
-      <ul>
-        <li>
-          User autentification
-        </li>
-        <li>
-          Services page
-        </li>
-        <li>
-          Data Fetch
-        </li>
-        
-      </ul>
-    </section>
+   
+   
    </main>
    
  

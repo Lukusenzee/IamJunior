@@ -5,11 +5,12 @@ import "./page.css"
 export default function Contact() {
   return (
     <div>
+      <h1> My life Style and Passions </h1>
       <section className="Info-container">
        <div className="info-item">
        <Image className="icon" src="/ches.png" alt="chess" width={32} height={32}/>
         <h2>Chess</h2>
-        <p>Playing chess is one of my passions. It's a bit too late too play competetivly, but still its a good stimulae for brain. Plus I have decent elo of 1450.</p></div>
+        <p>Playing chess is one of my passions. It's a bit too late too play competitevly, but still its a good stimulae for brain. Plus I have decent elo of 1450.</p></div>
     <div class="info-item"> 
         <Image className="icon" src="/coding.svg" alt="Coding" width={32} height={32}/>
         <h2>Programming</h2>

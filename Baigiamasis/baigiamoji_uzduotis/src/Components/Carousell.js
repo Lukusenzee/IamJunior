@@ -54,30 +54,32 @@ const Carousell = () => {
         <div className="slideshowContainer">
           <div className="mySlides fade">
             <div className="numbertext">1 / 3</div>
-            <Link href="https://edina.lt/ " target="_blank">
-            <Image src="/img4.jpg"  width={1200} height={400} alt="coding" />
-            </Link>
             
-            <div className="text">First slide</div>
+            <Image src="/img4.jpg"  width={1200} height={400} alt="coding" />
+            
+            <Link href="https://edina.lt/ " target="_blank"><div className="text">First slide</div></Link>
+            
           </div>
   
           <div className="mySlides fade">
             <div className="numbertext">2 / 3</div>
-            <Link href="https://edina.lt/ " target="_blank">
+            
            <Image src="/img2.jpg"  width={1200} height={400} alt="edina" />
             
-            </Link>
+           <Link href="https://edina.lt/ " target="_blank">
             <div className="text">First Ever Deployed Website</div>
+            </Link>
           </div>
   
           <div className="mySlides fade">
             <div className="numbertext">3 / 3</div>
-            <Link href="https://github.com/Lukusenzee/IamJunior" target="_blank">
+           
           
             <Image src="/img1.jpg"  width={1200} height={400} alt="Github" />
            
-            </Link>
+            <Link href="https://github.com/Lukusenzee/IamJunior" target="_blank">
             <div className="text">Github Repository</div>
+            </Link>
           </div>
   
           <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
