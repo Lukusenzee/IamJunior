@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <header>
-       <Image  src="./logos.jpg" alt="logo" width={153} height={40}/>
+       <Image  src="/logo.svg" alt="logo" width={153} height={40}/>
       <nav className={navActive ? 'nav-active' : 'nav-hidden'}>
         <Link href="/">Home</Link>
         <Link href="/AboutUS">About Us</Link>
