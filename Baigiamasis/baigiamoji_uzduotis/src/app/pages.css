@@ -1,0 +1,9 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+Carousell{
+    width:1240px
+}

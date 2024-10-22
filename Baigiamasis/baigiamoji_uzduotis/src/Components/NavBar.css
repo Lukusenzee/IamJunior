@@ -1,0 +1,159 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  
+  
+ 
+}
+body { max-width: 1240px; margin: 0 auto;}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: lightcoral;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  
+  border-bottom: 1px solid lightgray;
+  position: relative; /* Position relative for absolute positioning of nav */
+  z-index: 100;
+}
+
+
+.contact-button {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+}
+
+.contact-button:hover {
+  background-color: rgb(107, 27, 27);
+  transition: 300ms;
+}
+
+
+.burger {
+  display: none;
+  cursor: pointer;
+  background-color: lightcoral;
+  padding: 2px 1px;
+  z-index: 100;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  transition: max-height 0.5s ease; 
+  overflow: hidden; 
+ 
+}
+.contact-button-hidden{
+  display: none;
+}
+
+nav a {
+  padding: 10px 15px;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+@media ((min-width: 600px) and (max-width:800px)) {
+
+.contact-button{
+  display: none;
+}
+.contact-button-hidden{
+  display: block;
+}
+
+nav {
+  padding: 0px;
+  display: flex;
+  gap:0;
+  
+}
+
+}
+
+
+@media (max-width: 600px) {
+  .contact-button {
+    display: none;
+  }
+  header{
+    justify-content: space-between;
+  }
+
+  nav {
+    
+    position: absolute;
+    background-color: rgb(245, 244, 244);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    top: 60px; 
+    right: 20px;
+    width: 200px;
+    max-height: 0; 
+  }
+  .contact-button-hidden{
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    display: flex;
+    
+    
+    max-height: 340px; 
+    
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

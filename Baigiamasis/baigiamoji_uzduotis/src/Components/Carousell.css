@@ -1,0 +1,133 @@
+
+.slideshowContainer {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    z-index: 1; /* Lower z-index for the slideshow */
+    margin-bottom: 50px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: coral;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: lightcoral;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: lightcoral;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    padding: 8px 12px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@media (max-width: 600px) {
+    .prev, .next {
+        padding: 10px; /* Smaller padding for buttons */
+        font-size: 16px; /* Smaller font size */
+    }
+    .text {
+        font-size: 14px; /* Smaller text */
+        padding: 5px; /* Reduce padding */
+    }
+    .numbertext {
+        font-size: 10px; /* Smaller number text */
+    }
+
+    .slideshowContainer {
+       
+        width: 90%;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .prev, .next {
+        padding: 12px; /* Medium padding for buttons */
+        font-size: 17px; /* Medium font size */
+    }
+    .text {
+        font-size: 15px; /* Medium text */
+        padding: 6px; /* Adjust padding */
+    }
+    .numbertext {
+        font-size: 11px; /* Medium number text */
+    }
+}
+
+/* Laptops and larger screens (min-width: 769px) */
+@media (min-width: 769px) {
+    .prev, .next {
+        padding: 16px; /* Standard button padding */
+        font-size: 18px; /* Standard font size */
+    }
+    .text {
+        font-size: 16px; /* Standard text size */
+        padding: 8px; /* Standard padding */
+    }
+    .numbertext {
+        font-size: 12px; /* Standard number text size */
+    }
+}
