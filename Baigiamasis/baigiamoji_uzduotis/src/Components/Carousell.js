@@ -64,7 +64,7 @@ const Carousell = () => {
           <div className="mySlides fade">
             <div className="numbertext">2 / 3</div>
             <Link href="https://edina.lt/ " target="_blank">
-           <Image src="/img2.png"  width={1200} height={400} alt="edina" />
+           <Image src="/img2.jpg"  width={1200} height={400} alt="edina" />
             
             </Link>
             <div className="text">First Ever Deployed Website</div>
@@ -74,7 +74,7 @@ const Carousell = () => {
             <div className="numbertext">3 / 3</div>
             <Link href="https://github.com/Lukusenzee/IamJunior" target="_blank">
           
-            <Image src="/img1.png"  width={1200} height={400} alt="Github" />
+            <Image src="/img1.jpg"  width={1200} height={400} alt="Github" />
            
             </Link>
             <div className="text">Github Repository</div>
