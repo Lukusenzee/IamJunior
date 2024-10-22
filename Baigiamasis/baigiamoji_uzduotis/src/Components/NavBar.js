@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import "@/components/NavBar.css";
+import "./NavBar.css";
 import Image from 'next/image';
 
 const NavBar = () => {

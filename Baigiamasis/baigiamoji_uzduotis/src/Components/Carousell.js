@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-import "@/components/Carousell.css";
+import "./Carousell.css";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
