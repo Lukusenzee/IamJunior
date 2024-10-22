@@ -54,14 +54,17 @@ const Carousell = () => {
         <div className="slideshowContainer">
           <div className="mySlides fade">
             <div className="numbertext">1 / 3</div>
-            <Image src="/img4.jpg"  width={1200} height={400} alt="Nature" />
+            <Link href="https://edina.lt/ " target="_blank">
+            <Image src="/img4.jpg"  width={1200} height={400} alt="coding" />
+            </Link>
+            
             <div className="text">First slide</div>
           </div>
   
           <div className="mySlides fade">
             <div className="numbertext">2 / 3</div>
             <Link href="https://edina.lt/ " target="_blank">
-           <Image src="/img2.png"  width={1200} height={400} alt="Nature" />
+           <Image src="/img2.png"  width={1200} height={400} alt="edina" />
             
             </Link>
             <div className="text">First Ever Deployed Website</div>
