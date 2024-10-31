@@ -6,9 +6,12 @@ body { max-width: 1240px; margin: 0 auto;}
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-   
+   width: 96%;
     
 }
 Carousell{
     width:1240px
+}
+h2{
+    font-size: 50px;
 }
